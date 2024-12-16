@@ -1,13 +1,13 @@
-//student.cpp                     ÔÚ´ËÎÄ¼şÖĞ½øĞĞº¯ÊıµÄ¶¨Òå
+             
 #include<cstring>
 #include <iostream>
-#include "student.h"            //²»ÒªÂ©Ğ´´ËĞĞ£¬·ñÔò±àÒëÍ¨²»¹ı
+#include "student.h"          
 using namespace std;
-void Student::display()         //ÔÚÀàÍâ¶¨ÒådisplayÀàº¯Êı
+void Student::display()       
 {
-    cout << "num£º" << num << endl;
-    cout << "name£º"<< name << endl;
-    cout << "sex£º" << sex << endl;
+    cout << "numï¼š" << num << endl;
+    cout << "nameï¼š"<< name << endl;
+    cout << "sexï¼š" << sex << endl;
 }
 Student::Student() {
     num = 0;
