@@ -1,8 +1,8 @@
-//student.h                (这是头文件，在此文件中进行类的声明)
+//student.h              
 #pragma once
-class Student              //类声明
+class Student             
 {
-public:                   //公用成员函数原型声明
+public:                 
 	void display();
 	Student();
 	Student(int, const char*, char);
